@@ -1,0 +1,175 @@
+body, h1 {
+  font-size: 25px;
+}
+
+body, footer, h1 {
+  text-align: center;
+  background-color: #FFFFFF;
+  font-family: 'Helvetica Neue LT Std 57 Condensed';
+  color: #333333;
+  font-weight: bold;
+}
+
+footer {
+  opacity: 0.98;
+  font-size: 14px;
+  position: fixed;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #333333;
+}
+
+summary:before {
+  background: grey;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #E3000F;
+}
+
+.hd {
+  display:none
+}
+
+.menu {
+  font-size: 20px;
+}
+
+.up {
+  margin-left: 98%;
+  margin-right: 150px;
+  margin-top: -20px;
+}
+
+.up:hover {
+  opacity: 0.25;
+}
+
+.sticky {
+  text-align: inherit;
+  background-color: #FFFFFF;
+  opacity: 0.98;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.body_text {
+  font-size: 20px;
+  /* text-align: left; */
+  font-weight: normal;
+}
+
+.body_text_2 {
+  font-size: 18px;
+  /* text-align: left; */
+  font-weight: normal;
+  margin-top: -750px;
+  margin-left: 575px;
+  text-align: left;
+}
+
+.body_text_3 {
+  font-size: 18px;
+  /* text-align: left; */
+  font-weight: normal;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-right: 500px;
+}
+
+.body_text_left {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.body_text_left_2 {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.body_text_left_3 {
+  text-align: left;
+  margin-left: 0%;
+}
+
+.body_text_left {
+  text-align: left;
+}
+
+.body_left {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+  font-size: 18px;
+  /* text-align: left; */
+  font-weight: normal;
+}
+
+.body_left a:link, .body_left a:visited{
+  text-decoration: underline;
+  /*color: #E3000F;*/
+  color: #E3000F;
+}
+
+
+.body_left a:hover {
+  text-decoration: underline;
+  color: #E3000F;
+}
+
+.logo {
+  margin-left: 50px;
+  margin-bottom: -20px;
+  position: relative;
+}
+
+.picture1 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.picture2 {
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.menu_p1 {
+}
+
+.menu_p2 {
+}
+
+details {
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+details > summary {
+  border-radius: 0 5px 0 0;
+  padding: 2px 6px;
+  background-color: #f7f7f7;
+  border: none;
+  margin: 0;
+  box-shadow: 1px 1px 1px grey;
+}
+
+details > p {
+  border-radius: 0 0 5px 5px;
+  background-color: #f7f7f7;
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 1px 1px 2px grey;
+}
